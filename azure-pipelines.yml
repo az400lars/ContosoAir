@@ -14,7 +14,7 @@ steps:
         customcommand: 'install --production'
     - script: |
         npm install
-        npm run build
+        yarn run build
         npm test
       displayName: 'Run unit tests'
       continueOnError: true
