@@ -5,9 +5,9 @@
 
 pool:
   vmImage: 'ubuntu-18.04'
-  trigger:
+trigger:
     - master
-  steps:
+steps:
     - task: Npm@1
       inputs:
         command: 'custom'
