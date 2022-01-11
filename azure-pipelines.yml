@@ -14,7 +14,7 @@ steps:
         customcommand: 'install --production'
     - script: |
         npm install --global jest
-        yarn run build
+        npm run build
         npm test
       displayName: 'Run unit tests'
       continueOnError: true
